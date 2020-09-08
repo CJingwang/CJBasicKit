@@ -1,0 +1,22 @@
+{
+  "name": "CJBasicKit",
+  "version": "0.1.0",
+  "summary": "A short description of CJBasicKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wcj123/CJBasicKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wcj123": "wcjios@163.com"
+  },
+  "source": {
+    "git": "https://github.com/wcj123/CJBasicKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CJBasicKit/Classes/**/*"
+}

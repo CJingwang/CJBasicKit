@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/wcj123/CJBasicKit'
+  s.homepage         = 'https://github.com/CJingwang/CJBasicKitSpec.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wcj123' => 'wcjios@163.com' }
-  s.source           = { :git => 'https://github.com/wcj123/CJBasicKit.git', :tag => s.version.to_s }
+  s.author           = { 'CJingwang' => '1741209712@qq.com' }
+  s.source           = { :git => 'https://github.com/CJingwang/CJBasicKitSpec.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'CJBasicKit/Classes/**/*'
   

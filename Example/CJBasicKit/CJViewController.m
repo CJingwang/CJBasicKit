@@ -7,6 +7,7 @@
 //
 
 #import "CJViewController.h"
+#import "CJTest.h"
 
 @interface CJViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"%@", [CJTest test]);
 }
 
 - (void)didReceiveMemoryWarning

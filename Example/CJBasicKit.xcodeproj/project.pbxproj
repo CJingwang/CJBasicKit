@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0205F7868B654410C14D647C /* Pods-CJBasicKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJBasicKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CJBasicKit_Tests/Pods-CJBasicKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5294B6A9D3694EBFAFDFED5C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5294B6A9D3694EBFAFDFED5C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5F3FA5336E4804396E25D882 /* Pods_CJBasicKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJBasicKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* CJBasicKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CJBasicKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,12 +61,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71297EAC9FB78F98416A5337 /* Pods-CJBasicKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJBasicKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-CJBasicKit_Example/Pods-CJBasicKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		71F70EDB8FD10EF8BAFF4262 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		71F70EDB8FD10EF8BAFF4262 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA786B890ECF2CF87994BB64 /* Pods_CJBasicKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJBasicKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3D0A703FEFEEEC84A77ABD /* Pods-CJBasicKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJBasicKit_Example.release.xcconfig"; path = "Target Support Files/Pods-CJBasicKit_Example/Pods-CJBasicKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E1F9B82475624F870ED53E99 /* Pods-CJBasicKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJBasicKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-CJBasicKit_Tests/Pods-CJBasicKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E425537320F24421D3A358DA /* CJBasicKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CJBasicKit.podspec; path = ../CJBasicKit.podspec; sourceTree = "<group>"; };
+		E425537320F24421D3A358DA /* CJBasicKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CJBasicKit.podspec; path = ../CJBasicKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				0205F7868B654410C14D647C /* Pods-CJBasicKit_Tests.debug.xcconfig */,
 				E1F9B82475624F870ED53E99 /* Pods-CJBasicKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

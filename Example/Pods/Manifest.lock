@@ -1,0 +1,16 @@
+PODS:
+  - CJBasicKit (0.1.0)
+
+DEPENDENCIES:
+  - CJBasicKit (from `../`)
+
+EXTERNAL SOURCES:
+  CJBasicKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CJBasicKit: 69e9e1b12ac99068e8b2b761381c23fd21dc7d1d
+
+PODFILE CHECKSUM: 8c585ef424450e0e90ce13e5e15cc20eaa5be335
+
+COCOAPODS: 1.9.1
