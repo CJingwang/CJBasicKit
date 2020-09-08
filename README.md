@@ -22,7 +22,7 @@ pod 'CJBasicKit'
 
 ## Author
 
-wcj123, wcjios@163.com
+wcj, 1741209712@qq.com
 
 ## License
 
